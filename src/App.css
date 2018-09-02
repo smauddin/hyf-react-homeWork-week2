@@ -1,0 +1,72 @@
+body {
+  background-color: rgba(253, 255, 241, 0.877);
+}
+
+.App {
+  text-align: center;
+}
+
+.todo-wrapper {
+  margin: 20px auto 20px auto;
+  width: 1000px;
+  min-height: 600px;
+  border: 3px solid rgba(73, 204, 249, 1);
+  padding: 20px;
+  background-color: rgba(205, 255, 251, 0.61);
+}
+
+input {
+  width: 60%;
+  border: none;
+  border-top: 2px solid rgba(17, 167, 25, 0.356);
+  border-bottom: 2px solid rgba(17, 167, 25, 0.356);
+  margin-right: 30px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  padding: 5px;
+  line-height: 17px;
+  background-color: transparent;
+}
+
+input:focus {
+  outline: none;
+  border: none;
+  border-top: 2px solid darkgreen;
+  border-bottom: 2px solid darkgreen;
+}
+
+.todoWrapper {
+  border-bottom: 1px solid lightblue;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.removeTodo {
+  margin-right: 20px;
+  margin-bottom: 10px;
+  outline: none;
+  box-shadow: none;
+  border-width: 2px;
+  border-radius: 3px;
+  border-style: solid;
+  padding: 8px;
+  color: rgba(203, 20, 32, 0.726);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.removeTodo:focus {
+  box-shadow: rgba(17, 167, 25, 0.356);
+}
+
+li {
+  list-style: none;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.cbox {
+  padding-left: 100px;
+}
